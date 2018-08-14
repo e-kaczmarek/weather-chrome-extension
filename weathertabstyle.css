@@ -1,0 +1,19 @@
+body {
+    background-image: url("leafsgif.gif");
+}
+
+h1 {
+	color: darkblue;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+img {
+	align-self: center;
+}
+a {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

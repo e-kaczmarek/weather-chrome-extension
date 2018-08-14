@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Weather Extension",
+	"version": "0.1",
+	"content_scripts": [
+		{
+			"matches":[
+				"<all_urls>"
+			],
+			"js": ["weathercontent.js"]
+		}
+	],
+	"browser_action": {
+		"default_icon": "weather_icon.png",
+		"default_title": "Weather Test"
+	},
+	"chrome_url_overrides" : {
+		"newtab": "weathertab.html"
+	},
+	"permissions" : ["geolocation", "activeTab"]
+}
